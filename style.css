@@ -1,0 +1,68 @@
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    padding: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 66%;
+    margin: auto;
+    background-color: rgba(1, 1, 1, 0.5);
+    border-radius: 16px;
+    padding: 1.5% 0 0.1%;  
+}
+header{
+    text-align: center;
+    color: rgb(13, 201, 13);
+    padding-top: 80px;
+}
+header > img{
+    width: 18%;
+}
+nav{
+    width: 80%;
+    text-align: center;
+    background-color: rgb(13, 201, 13);
+    padding: 12px;
+    margin: auto;
+}
+.termina{
+    margin: 0 5px;
+}
+main{
+    margin: auto;
+    width: 82%;
+    color: whitesmoke;
+}
+.monopattino{
+    display: inline-block;
+}
+.via:before{   	
+content:"\21A6";
+}
+.via{
+    font-size: 20px;
+    color: rgb(186, 186, 186);
+}
+.box{
+    padding: 16px;
+    border-radius: 6px;
+}
+.carica-arancio{
+    width: 45%;
+    background-color: rgb(219, 158, 44);   
+}
+.carica-verde{
+width: 68%;
+background-color: rgb(13, 201, 13);
+}
+.carica-rossa{
+width: 18%;
+background-color: rgb(200, 70, 70);
+}
+footer{
+    color: rgba(0, 0, 0, 0.319);
+    text-align: center;
+    margin-top: 8%;
+    text-decoration: underline;
+}
